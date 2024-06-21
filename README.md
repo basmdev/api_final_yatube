@@ -16,7 +16,7 @@ API для Yatube.
 1. Клонируйте репозиторий:
 
    ```python
-   git clone https://github.com/MAGFRG/api_final_yatube.git
+   git clone https://github.com/basmdev/api_final_yatube.git
    ```
 
 2. Перейдите в папку проекта:
