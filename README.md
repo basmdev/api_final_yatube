@@ -15,35 +15,34 @@ API для Yatube.
 
 1. Клонируйте репозиторий:
 
-   ```python
+   ```
    git clone https://github.com/basmdev/api_final_yatube.git
    ```
 
-2. Перейдите в папку проекта:
+2. Установите виртуальное окружение для проекта и активируйте его:
 
-   ```python
-   cd api_final_yatube/
    ```
-
-3. Установите виртуальное окружение для проекта и активируйте его:
-
-   ```python
    python -m venv venv
    ```
-   ```python
+   ```
    source venv/Scripts/activate
    ```
 
-4. Установите зависимости:
+3. Установите зависимости:
 
-   ```python
+   ```
    pip install -r requirements.txt
    ```
-
+   
+4. Перейдите в папку с файлом manage.py
+   ```
+   cd yatube_api
+   ```
+   
 5. Выполните миграции:
 
-   ```python
-   python3 manage.py migrate
+   ```
+   python manage.py migrate
    ```
 
 6. Запустите проект:
@@ -116,3 +115,4 @@ API для Yatube.
      "post": 1
    }
    ```
+Все остальные примеры запросов можно посмотреть в документации к API по адресу http://127.0.0.1:8000/redoc/
